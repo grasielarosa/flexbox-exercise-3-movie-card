@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=RocknRoll+One&display=swap');
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #333533;
+
+}
+.contenedor{
+    background-color: #333533;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+h2{
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 18px;
+    color: #333533;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+}
+.container{
+    padding: 10px;
+    height: 300px;
+    width: 600px;
+    background-color: #F5CB5C;
+    border: 3px solid #242423;
+    display: flex;
+    box-shadow: -6px 6px 6px -3px #242423;
+
+}
+.cartel{
+    width: 200px;
+    display: flex;
+    background-color: transparent;
+    border: 3px solid #242423;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: transparent;
+    border: 3px solid #242423;
+}
+.textBox{
+    width: 250px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+
+}
+.categoryBox{
+    background-color: #333533;
+    padding: 5px;
+    width: max-content;
+    
+    
+}
